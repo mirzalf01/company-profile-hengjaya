@@ -1,0 +1,254 @@
+*{
+	padding: 0; margin: 0;
+	transition: all .4s;
+}
+html{
+	scroll-behavior: smooth;
+}
+.bg-dark{
+	background-color: transparent !important;
+}
+/* Navbar */
+.navbar-brand{
+	margin-right: auto;
+	margin-left: 20px;
+}
+.navbar-nav{
+	margin-right: 20px;
+	margin-left: auto;
+}
+.navbar-nav a{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.navbar-nav a[href]{
+    color: white !important;
+}
+.navbar-nav a:hover{
+	color: #12a89f !important;
+}
+.navbar-toggler:focus{
+	outline: 0;
+}
+.header{
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	width: 100%;
+	padding: 0 10%;
+	background-image: transparent;
+    font-family: 'Rajdhani', sans-serif;
+	font-weight: 600;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.yellow{
+	color: #12a89f;
+}
+.green{
+	color: #12a89f;
+}
+/* Banner Image */
+.banner-image{
+	position: relative;
+	/* height: 695px; */
+	height: 100vh;
+	background: url('../image/dji_0485.jpg') no-repeat center;
+	background-size: cover;
+}
+.bg-color{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	overflow: hidden;
+	z-index: 2;
+}
+/* container */
+.container-mod{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	color: white;
+	font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+}
+.disable-select {
+    user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+}
+.container-mod h1{
+	font-weight: 900;
+	color: #12a89f;
+	font-size: 52px;
+}
+.container-mod p{
+	font-size: 18px;
+}
+.btn{
+	background-color: #12a89f;
+	border: none;
+	font-size: 20px;
+	color: white;
+}
+.container-mod a[href]{
+	font-weight: 900;
+}
+.btn:hover{
+	color:#12a89f;
+	background-color: white;
+}
+.btn:focus{
+	outline: none;
+  	box-shadow: none;
+}
+/* abouts */
+#about{
+	/* position: relative;
+	background: url('../image/darker-bg.jpg') no-repeat center;
+	background-size: cover; */
+	background-color: white;
+}
+.about{
+	overflow: hidden;
+	width: 100%;
+	font-family: 'Rajdhani', sans-serif;
+}
+.about-h1{
+	text-align: center;
+	padding-top: 90px;
+	padding-bottom: 60px;
+	font-weight: 900;
+	color: #12a89f;
+}
+.about p, .operation p{
+	font-size: 18px;
+}
+.about-more{
+	margin: 0 auto 60px auto;
+	font-weight: 900;
+	border: 1px solid #12a89f;
+}
+.about-more:hover{
+	border: 1px solid #12a89f;
+}
+
+/* operation */
+#operation{
+	/* position: relative;
+	background: url('../image/darker-bg.jpg') no-repeat center;
+	background-size: cover; */
+	background-color: #eee;
+}
+.operation{
+	overflow: hidden;
+	width: 100%;
+	font-family: 'Rajdhani', sans-serif;
+}
+.operation-h1{
+	text-align: center;
+	padding-top: 90px;
+	padding-bottom: 60px;
+	font-weight: 900;
+	color: #12a89f;
+}
+.operation p, .operation p{
+	font-size: 18px;
+}
+.operation-more{
+	margin: 0 auto 60px auto;
+	font-weight: 900;
+	border: 1px solid #12a89f;
+}
+.operation-more:hover{
+	border: 1px solid #12a89f;
+}
+
+/* corevalues */
+#corevalues{
+	/* position: relative;
+	background: url('../image/darker-bg.jpg') no-repeat center;
+	background-size: cover; */
+	background-color: white;
+}
+.corevalues{
+	overflow: hidden;
+	width: 100%;
+	font-family: 'Rajdhani', sans-serif;
+}
+.corevalues-h1{
+	text-align: center;
+	padding-top: 90px;
+	padding-bottom: 60px;
+	font-weight: 900;
+	color: #12a89f;
+}
+.stroked-header
+{
+	-webkit-text-stroke: 1px #12a89f;
+    -webkit-text-fill-color: white;
+}
+.corevalues-content .w-75 ol li{
+	list-style-type: none;
+}
+.corevalues p, .operation p{
+	font-size: 18px;
+}
+.corevalues-more{
+	margin: 0 auto 60px auto;
+	font-weight: 900;
+	border: 1px solid #12a89f;
+}
+.corevalues-more:hover{
+	border: 1px solid #12a89f;
+}
+
+/* contact-us */
+#contact-us{
+	position: relative;
+	background: url('../image/dji_0142.jpg') no-repeat center;
+	background-size: cover;
+	background-color: white;
+	color: white;
+}
+.footer-darker-bg{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	overflow: hidden;
+	z-index: 2;
+}
+.footer-darker-bg h3{
+	color: #12a89f;
+}
+.contact-us{
+	overflow: hidden;
+	width: 100%;
+	font-family: 'Rajdhani', sans-serif;
+}
+.contact-us-h1{
+	text-align: center;
+	padding-top: 90px;
+	padding-bottom: 60px;
+	font-weight: 900;
+	color: #12a89f;
+}
+.contact-us-content .w-75 ol li{
+	list-style-type: none;
+}
+.contact-us p, .operation p{
+	font-size: 18px;
+}
+.contact-us-more{
+	margin: 0 auto 60px auto;
+	font-weight: 900;
+	border: 1px solid #12a89f;
+}
+.contact-us-more:hover{
+	border: 1px solid #12a89f;
+}
+
+
